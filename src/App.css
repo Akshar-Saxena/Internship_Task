@@ -1,0 +1,43 @@
+.card {
+    width: 300px;
+    outline: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+img {
+    width: 200px;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px white);
+}
+
+.scrollar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 50px;
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
